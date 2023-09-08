@@ -177,8 +177,14 @@
 				stagger: 50,
 			});
 
-			imagesLoaded(grid).on('progress', function () {
+			imagesLoaded(grid).on(function () {
 				masonry.layout();
+			});
+
+			window.addEventListener('load', function () {
+				imagesLoaded(grid).on(function () {
+					masonry.layout();
+				});
 			});
 		</script>
 	</body>
