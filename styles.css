@@ -20,6 +20,7 @@ body {
 	color: #121212;
 	max-width: 960px;
 	margin: 0 auto;
+	overflow-x: hidden;
 }
 
 img {
@@ -35,6 +36,7 @@ textarea {
 
 a {
 	text-decoration: none;
+	color: inherit;
 }
 
 ul {
@@ -44,7 +46,8 @@ ul {
 main img {
 	background-color: transparent;
 	filter: drop-shadow(1px 1px 2px #646464);
-	width: 200px;
+	width: 100%;
+	height: fit-content;
 }
 
 header {
@@ -70,10 +73,15 @@ h1 {
 	margin-bottom: 0.5rem;
 }
 
+h2 {
+	margin-bottom: 0.5rem;
+}
+
 p {
 	font-size: 0.9rem;
 	line-height: 1.4;
 	margin-bottom: 0.8rem;
+	margin-top: 0.8rem;
 }
 
 .card {
@@ -82,6 +90,11 @@ p {
 	max-width: 450px;
 	height: fit-content;
 	margin: 10px 0;
+	position: relative;
+}
+
+.laptop-img {
+	margin-bottom: -75px;
 }
 
 .card-intro {
@@ -147,8 +160,38 @@ p {
 	background-color: #4b4b4b;
 }
 
+.tags-project li {
+	background-color: #acb1d6;
+	color: #11204a;
+}
+
 .card-project {
 	background-color: #dbdfea;
+	margin-bottom: 0 16px;
+}
+
+.project-heading {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.project-links {
+	display: flex;
+	justify-content: space-between;
+	gap: 4px;
+}
+
+.project-links li {
+	background-color: #8294c4;
+	border-radius: 40px;
+	padding: 4px 10px;
+	color: white;
+	transition: all 200ms ease-in;
+}
+
+.project-links li:hover {
+	background-color: #6d80b6;
 }
 
 @media (max-width: 500px) {
