@@ -79,7 +79,7 @@ p {
 .card {
 	padding: 18px;
 	max-width: 450px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .card-intro {
@@ -90,7 +90,7 @@ p {
 .card-intro h2 {
 	font-size: 1.2rem;
 	font-weight: 500;
-	margin-bottom: 1rem;
+	margin-bottom: 0.8rem;
 }
 
 .card-project {
@@ -105,4 +105,20 @@ p {
 	height: 50px;
 	width: 50px;
 	border-radius: 50%;
+}
+
+.tags {
+	display: flex;
+	gap: 1rem;
+}
+
+.tags li {
+	padding: 6px;
+	font-size: 0.7rem;
+	border-radius: 4px;
+}
+
+.tags-intro li {
+	color: #fff;
+	background-color: #4b4b4b;
 }
