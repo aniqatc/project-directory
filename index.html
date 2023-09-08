@@ -188,24 +188,25 @@
 		</main>
 		<footer></footer>
 		<script>
-			const grid = document.querySelector('main');
-			const masonry = new Masonry(grid, {
-				itemSelector: '.card',
-				columnWidth: '.card',
-				gutter: 14,
-				fitWidth: true,
-				transitionDuration: '0.2s',
-				stagger: 50,
-				isAnimated: true,
-			});
+			document.addEventListener('DOMContentLoaded', function () {
+				const grid = document.querySelector('main');
+				const masonry = new Masonry(grid, {
+					itemSelector: '.card',
+					columnWidth: '.card',
+					gutter: 14,
+					fitWidth: true,
+					stagger: 30,
+					isAnimated: true,
+				});
 
-			imagesLoaded(grid).on(function () {
-				masonry.layout();
-			});
-
-			window.addEventListener('load', function () {
 				imagesLoaded(grid).on(function () {
 					masonry.layout();
+				});
+
+				window.addEventListener('load', function () {
+					imagesLoaded(grid).on(function () {
+						masonry.layout();
+					});
 				});
 			});
 		</script>
