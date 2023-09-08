@@ -25,7 +25,6 @@ body {
 
 img {
 	display: block;
-	max-width: 100%;
 }
 
 input,
@@ -46,8 +45,8 @@ ul {
 main img {
 	background-color: transparent;
 	filter: drop-shadow(1px 1px 2px #646464);
-	width: 100%;
-	height: fit-content;
+	max-width: 100%;
+	min-width: 100%;
 }
 
 header {
