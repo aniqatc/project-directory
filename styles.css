@@ -11,8 +11,13 @@
 
 html,
 body {
-	height: 100%;
 	font-family: 'Inter', sans-serif;
+	height: 100%;
+}
+
+body {
+	background-color: #fffdf9;
+	color: #121212;
 }
 
 img {
@@ -24,4 +29,19 @@ input,
 button,
 textarea {
 	font: inherit;
+}
+
+a {
+	text-decoration: none;
+}
+
+.avatar {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+
+.test {
+	background-color: transparent;
+	filter: drop-shadow(1px 1px 2px #646464);
 }
