@@ -6,6 +6,7 @@
 
 * {
 	margin: 0;
+	padding: 0;
 }
 
 html,
@@ -20,6 +21,7 @@ img {
 }
 
 input,
-button {
+button,
+textarea {
 	font: inherit;
 }
