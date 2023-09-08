@@ -16,6 +16,7 @@
 			src="https://kit.fontawesome.com/50cde61edc.js"
 			crossorigin="anonymous"
 		></script>
+		<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 	</head>
 	<body>
 		<header>
@@ -26,7 +27,7 @@
 			</ul>
 		</header>
 		<main>
-			<div>
+			<div class="card card-intro">
 				<h1>Hi, I'm Aniqa.</h1>
 				<h2>Developer based in New York City.</h2>
 				<p>
@@ -40,7 +41,7 @@
 					<li>Design</li>
 				</ul>
 			</div>
-			<div>
+			<div class="card card-social">
 				<a
 					href="https://twitter.com/aniqatc"
 					target="_blank"
@@ -72,7 +73,7 @@
 					><i class="fa-solid fa-envelope fa-shake"></i
 				></a>
 			</div>
-			<div>
+			<div class="card card-project">
 				<div>
 					<h3>Themed Keyboard</h3>
 					<div>
@@ -92,9 +93,42 @@
 					alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
 					blanditiis harum.
 				</p>
-				<img src="/assets/mac-keyboard-light.png" width="200px" class="test" />
+				<img src="/assets/mac-keyboard-light.png" width="200px" />
+			</div>
+			<div class="card card-project">
+				<div>
+					<h3>Themed Keyboard</h3>
+					<div>
+						<i class="fa-solid fa-code"></i>
+						<a>Demo</a>
+					</div>
+				</div>
+				<ul>
+					<li>JavaScript</li>
+					<li>Bootstrap</li>
+					<li>CSS</li>
+					<li>API</li>
+				</ul>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+					aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+					alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+					blanditiis harum.
+				</p>
+				<img src="/assets/mac-keyboard-light.png" width="200px" />
 			</div>
 		</main>
 		<footer></footer>
+		<script>
+			const grid = document.querySelector('main');
+			const masonry = new Masonry(grid, {
+				itemSelector: '.card',
+				columnWidth: '.card',
+				gutter: 12,
+				horizontalOrder: true,
+				fitWidth: true,
+				transitionDuration: '0.2s',
+			});
+		</script>
 	</body>
 </html>

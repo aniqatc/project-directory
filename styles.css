@@ -18,6 +18,8 @@ body {
 body {
 	background-color: #fffdf9;
 	color: #121212;
+	max-width: 960px;
+	margin: 0 auto;
 }
 
 img {
@@ -58,27 +60,26 @@ header ul {
 	gap: 16px;
 }
 
-/* main {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
-	padding: 10px 20px;
-	gap: 20px;
-	justify-content: center;
-} */
+main {
+	padding: 20px;
+	margin: 0 auto;
+}
 
 h1 {
 	font-size: 2rem;
+	margin-bottom: 0.5rem;
 }
 
 p {
 	font-size: 0.9rem;
 	line-height: 1.4;
+	margin-bottom: 0.8rem;
 }
 
 .card {
-	padding: 16px;
-	width: 400px;
-	height: fit-content;
+	padding: 18px;
+	max-width: 450px;
+	margin-bottom: 20px;
 }
 
 .card-intro {
@@ -89,14 +90,15 @@ p {
 .card-intro h2 {
 	font-size: 1.2rem;
 	font-weight: 500;
+	margin-bottom: 1rem;
 }
 
 .card-project {
-	background-color: lightblue;
+	background-color: #dbdfea;
 }
 
 .card-social {
-	background-color: grey;
+	background-color: #ececec;
 }
 
 .avatar {
