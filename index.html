@@ -12,11 +12,11 @@
 		/>
 		<link rel="icon" type="image/png" href="/assets/favicon.png" />
 		<link rel="stylesheet" href="styles.css" />
+		<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 		<script
 			src="https://kit.fontawesome.com/50cde61edc.js"
 			crossorigin="anonymous"
 		></script>
-		<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 	</head>
 	<body>
 		<header>
@@ -70,8 +70,8 @@
 					href="mailto:hello@aniqa.io"
 					target="_blank"
 					rel="noopener noreferrer"
-					><i class="fa-solid fa-envelope fa-shake"></i
-				></a>
+					><i class="fa-solid fa-envelope fa-shake"></i>Email</a
+				>
 			</div>
 			<div class="card card-project">
 				<div>
@@ -171,9 +171,10 @@
 			const masonry = new Masonry(grid, {
 				itemSelector: '.card',
 				columnWidth: '.card',
-				gutter: 12,
+				gutter: 14,
 				fitWidth: true,
 				transitionDuration: '0.1s',
+				stagger: 50,
 			});
 
 			imagesLoaded(grid).on('progress', function () {
