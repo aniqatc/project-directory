@@ -339,4 +339,11 @@ main {
 	.card {
 		max-width: 95%;
 	}
+
+	.demo-link-hover {
+		/* top: 45%;
+		left: 50%;
+		transform: translateX(-50%); */
+		font-size: 0.8rem;
+	}
 }

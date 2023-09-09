@@ -339,7 +339,7 @@
 					<h2>Coming Soon</h2>
 				</div>
 				<h4>Websites using the following tech:</h4>
-				<ul class="tags tags-project">
+				<ul class="tags">
 					<li><i class="fa-brands fa-react"></i> React</li>
 					<li><i class="fa-brands fa-python"></i> Python</li>
 					<li><i class="fa-solid fa-play"></i> Three.js</li>
@@ -364,26 +364,6 @@
 				</p>
 			</div>
 		</main>
-		<script>
-			document.addEventListener('DOMContentLoaded', function () {
-				const grid = document.querySelector('main');
-				const masonry = new Masonry(grid, {
-					itemSelector: '.card',
-					columnWidth: '.card',
-					gutter: 16,
-					fitWidth: true,
-					stagger: 30,
-					isAnimated: true,
-				});
-
-				masonry.reloadItems();
-
-				imagesLoaded(grid).on('always', function () {
-					masonry.layout();
-				});
-			});
-
-			document.addEventListener('touchstart', function () {}, true);
-		</script>
+		<script src="layout.js"></script>
 	</body>
 </html>
