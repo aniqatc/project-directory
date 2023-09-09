@@ -222,8 +222,8 @@ main {
 
 .demo-link {
 	position: relative;
-	width: 100%;
-	max-height: 300px;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .demo-link-hover {
