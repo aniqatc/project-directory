@@ -1,3 +1,6 @@
+/************************************/
+/* CSS Reset & General Declarations */
+
 *,
 *::before,
 *::after {
@@ -23,14 +26,9 @@ body {
 	overflow-x: hidden;
 }
 
+/* Text, Links & Images */
 img {
 	display: block;
-}
-
-input,
-button,
-textarea {
-	font: inherit;
 }
 
 a {
@@ -40,22 +38,6 @@ a {
 
 ul {
 	list-style-type: none;
-}
-
-header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 24px 24px 0px 24px;
-}
-
-header a {
-	font-weight: 600;
-}
-
-main {
-	padding: 20px;
-	margin: 0 auto;
 }
 
 h1 {
@@ -80,6 +62,31 @@ p {
 	margin-top: 0.8rem;
 }
 
+/* Header */
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 24px 24px 0px 24px;
+}
+
+header a {
+	font-weight: 600;
+}
+
+.avatar {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+
+/* Main Content Container */
+main {
+	padding: 20px;
+	margin: 0 auto;
+}
+
+/* General Card Styling */
 .card {
 	padding: 18px 24px;
 	min-width: 300px;
@@ -88,6 +95,7 @@ p {
 	margin: 10px 0;
 }
 
+/* Introduction Card */
 .card-intro {
 	background-color: #fff;
 	border: 1px solid #000;
@@ -99,20 +107,47 @@ p {
 	margin-bottom: 0.8rem;
 }
 
+.tags-intro li {
+	color: #fff;
+	background-color: #4b4b4b;
+}
+
+/* Social Icons & Links Card */
 .card-social {
 	background-color: #ececec;
 	text-align: center;
 	width: 100%;
 }
 
+.card-social a {
+	background-color: #c7c7c7;
+	color: black;
+	padding: 5px 8px;
+	border-radius: 40px;
+	margin: 0 4px;
+	transition: all 300ms ease-in;
+}
+
+.card-social a:hover {
+	padding: 4px 10px;
+	background-color: #4b4b4b;
+	color: #fff;
+}
+
+.card-social span {
+	display: none;
+	transition: all 50ms ease-in;
+}
+
+.card-social a:hover span {
+	display: inline;
+	cursor: pointer;
+}
+
+/* Final Footer Card (Coming Soon Info) */
 .card-footer {
 	background-color: #ececec;
 	width: 100%;
-}
-
-.card-footer li {
-	background-color: #4b4b4b;
-	color: #fff;
 }
 
 .card-footer a {
@@ -123,35 +158,12 @@ p {
 	text-decoration: underline;
 }
 
-.card-social a {
-	background-color: #c7c7c7;
-	color: black;
-	padding: 5px 8px;
-	border-radius: 40px;
-	margin: 0 4px;
-	transition: all 500ms ease-in-out;
-}
-
-.card-social span {
-	display: none;
-}
-
-.card-social a:hover {
-	padding: 4px 10px;
+.card-footer li {
 	background-color: #4b4b4b;
 	color: #fff;
 }
 
-.card-social a:hover span {
-	display: inline;
-}
-
-.avatar {
-	height: 50px;
-	width: 50px;
-	border-radius: 50%;
-}
-
+/* Tech Tags General Styling */
 .tags {
 	display: flex;
 	gap: 12px;
@@ -165,9 +177,23 @@ p {
 	border-radius: 4px;
 }
 
-.tags-intro li {
-	color: #fff;
-	background-color: #4b4b4b;
+/************************/
+/* Project Card Styling */
+.card-project {
+	margin-bottom: 30px;
+}
+
+/* Heading & Links Inside Project Cards */
+.project-heading {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.project-links {
+	display: flex;
+	justify-content: space-between;
+	gap: 4px;
 }
 
 .project-links li {
@@ -177,10 +203,12 @@ p {
 	transition: all 300ms ease-in;
 }
 
-.card-project {
-	margin-bottom: 30px;
+.project-links li:hover {
+	transform: scale(1.075);
+	filter: hue-rotate(50deg);
 }
 
+/* Laptop Image Inside Project Cards */
 .card-project img {
 	background-color: transparent;
 	filter: drop-shadow(2px 2px 6px #646464);
@@ -208,15 +236,17 @@ p {
 	transition: all 300ms ease-in;
 }
 
-.demo-link:hover .demo-link-hover {
-	opacity: 1;
-}
-
 .demo-link:hover img {
 	opacity: 0.75;
 	filter: grayscale(0.9) blur(1px);
 }
 
+.demo-link:hover .demo-link-hover {
+	opacity: 1;
+}
+
+/* Individual Color Schemes for Project Cards */
+/* Keyboard App */
 .card-project:nth-of-type(3) {
 	background-color: #dbdfea;
 }
@@ -230,6 +260,7 @@ p {
 	background-color: #8294c4;
 }
 
+/* Weather App */
 .card-project:nth-of-type(4) {
 	background-color: #e3eef2;
 }
@@ -243,6 +274,7 @@ p {
 	background-color: #7a9cab;
 }
 
+/* Omnifood */
 .card-project:nth-of-type(5) {
 	background-color: #ddeecf;
 }
@@ -256,6 +288,7 @@ p {
 	background-color: #467c41;
 }
 
+/* Valorant */
 .card-project:nth-of-type(6) {
 	background-color: #f8e8ee;
 }
@@ -269,6 +302,7 @@ p {
 	background-color: #bf4d76;
 }
 
+/* Hogwarts */
 .card-project:nth-of-type(7) {
 	background-color: #f8f2df;
 	width: 100%;
@@ -283,22 +317,8 @@ p {
 	background-color: #b89e49;
 }
 
-.project-links li:hover {
-	transform: scale(1.075);
-	filter: hue-rotate(50deg);
-}
-
-.project-heading {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
-.project-links {
-	display: flex;
-	justify-content: space-between;
-	gap: 4px;
-}
+/**************************************/
+/* Media Queries for Smaller Devices */
 
 @media (max-width: 915px) {
 	header {
