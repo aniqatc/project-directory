@@ -222,6 +222,7 @@ main {
 
 .demo-link {
 	position: relative;
+	width: 100%;
 }
 
 .demo-link-hover {
