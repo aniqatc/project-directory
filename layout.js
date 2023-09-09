@@ -16,6 +16,3 @@ document.addEventListener('DOMContentLoaded', function () {
 		masonry.layout();
 	});
 });
-
-/* TEMP: hover interactions on mobile */
-document.addEventListener('touchstart', function () {}, true);

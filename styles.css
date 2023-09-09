@@ -120,14 +120,17 @@ main {
 	color: black;
 	padding: 5px 8px;
 	border-radius: 40px;
-	margin: 0 4px;
+	margin: 0 6px;
 	transition: all 300ms ease-in;
 }
 
 .card-social a:hover {
-	padding: 4px 10px;
 	background-color: #4b4b4b;
 	color: #fff;
+}
+
+.card-social a:hover i {
+	color: #c7c7c7;
 }
 
 .card-social span {
