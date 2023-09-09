@@ -225,9 +225,9 @@ main {
 
 .demo-link-hover {
 	position: absolute;
-	top: 45%;
+	top: 50%;
 	left: 50%;
-	transform: translateX(-50%);
+	transform: translate(-50%, -50%);
 	background-color: #646464;
 	color: white;
 	border-radius: 40px;
@@ -341,9 +341,6 @@ main {
 	}
 
 	.demo-link-hover {
-		/* top: 45%;
-		left: 50%;
-		transform: translateX(-50%); */
 		font-size: 0.8rem;
 	}
 }
