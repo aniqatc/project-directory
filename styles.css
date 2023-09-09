@@ -223,6 +223,7 @@ main {
 .demo-link {
 	position: relative;
 	width: 100%;
+	max-height: 300px;
 }
 
 .demo-link-hover {
