@@ -341,4 +341,9 @@ main {
 	.card {
 		max-width: 95%;
 	}
+
+	.demo-link-hover {
+		transform: none;
+		font-size: 0.8rem;
+	}
 }
