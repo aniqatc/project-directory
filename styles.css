@@ -26,11 +26,7 @@ body {
 	overflow-x: hidden;
 }
 
-/* Text, Links & Images */
-img {
-	display: block;
-}
-
+/* Text, Links, Headings */
 a {
 	text-decoration: none;
 	color: inherit;
@@ -222,16 +218,14 @@ main {
 
 .demo-link {
 	position: relative;
-	margin: 0 auto;
-	text-align: center;
 }
 
 .demo-link-hover {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	-webkit-transform: translate3d(-50%, -50%, 0);
-	transform: translate3d(-50%, -50%, 0);
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 	background-color: #646464;
 	color: white;
 	border-radius: 40px;
