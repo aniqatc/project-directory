@@ -183,7 +183,7 @@ p {
 
 .card-project img {
 	background-color: transparent;
-	filter: drop-shadow(1px 1px 2px #646464);
+	filter: drop-shadow(2px 2px 6px #646464);
 	max-width: 100%;
 	min-width: 100%;
 	max-height: 300px;
@@ -258,7 +258,7 @@ p {
 
 .project-links li:hover {
 	transform: scale(1.075);
-	filter: hue-rotate(50deg) grayscale(0.2);
+	filter: hue-rotate(50deg);
 }
 
 .project-heading {
@@ -273,6 +273,12 @@ p {
 	gap: 4px;
 }
 
+@media (max-width: 915px) {
+	header {
+		justify-content: space-around;
+	}
+}
+
 @media (max-width: 500px) {
 	main {
 		padding: 10px;
@@ -280,6 +286,7 @@ p {
 
 	header {
 		padding: 18px 24px 10px;
+		justify-content: space-between;
 	}
 
 	.card {

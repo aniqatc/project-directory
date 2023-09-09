@@ -226,6 +226,8 @@
 					isAnimated: true,
 				});
 
+				masonry.reloadItems();
+
 				imagesLoaded(grid).on('always', function () {
 					masonry.layout();
 				});
