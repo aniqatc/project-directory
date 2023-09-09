@@ -205,6 +205,7 @@ main {
 
 .project-links li:hover {
 	transform: scale(1.075);
+	-webkit-transform: scale(1.075);
 	filter: hue-rotate(50deg);
 }
 
@@ -228,6 +229,7 @@ main {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
 	background-color: #646464;
 	color: white;
 	border-radius: 40px;
@@ -338,9 +340,5 @@ main {
 
 	.card {
 		max-width: 95%;
-	}
-
-	.demo-link-hover {
-		font-size: 0.8rem;
 	}
 }
