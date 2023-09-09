@@ -70,7 +70,7 @@ h2 {
 h4 {
 	font-weight: 500;
 	color: #000000b2;
-	margin-bottom: 12px;
+	margin-bottom: 10px;
 }
 
 p {
@@ -105,28 +105,45 @@ p {
 	width: 100%;
 }
 
+.card-footer {
+	background-color: #ececec;
+	width: 100%;
+}
+
+.card-footer li {
+	background-color: #4b4b4b;
+	color: #fff;
+}
+
+.card-footer a {
+	font-weight: 600;
+}
+
+.card-footer a:hover {
+	text-decoration: underline;
+}
+
 .card-social a {
 	background-color: #c7c7c7;
 	color: black;
 	padding: 5px 8px;
-	border-radius: 50%;
+	border-radius: 40px;
 	margin: 0 4px;
-	transition: all 300ms ease-in-out;
+	transition: all 500ms ease-in-out;
 }
 
 .card-social span {
 	display: none;
 }
 
-.card-social a:hover span {
-	display: inline;
-}
-
 .card-social a:hover {
 	padding: 4px 10px;
-	border-radius: 40px;
 	background-color: #4b4b4b;
 	color: #fff;
+}
+
+.card-social a:hover span {
+	display: inline;
 }
 
 .avatar {
@@ -157,7 +174,7 @@ p {
 	border-radius: 40px;
 	padding: 4px 10px;
 	color: white;
-	transition: all 200ms ease-in;
+	transition: all 300ms ease-in;
 }
 
 .card-project {
@@ -239,7 +256,8 @@ p {
 }
 
 .project-links li:hover {
-	transform: scale(1.05);
+	transform: scale(1.075);
+	filter: hue-rotate(50deg) grayscale(0.2);
 }
 
 .project-heading {

@@ -29,10 +29,9 @@
 				<h1>Hi, I'm Aniqa.</h1>
 				<h2>Developer based in New York City.</h2>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-					aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-					alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-					blanditiis harum.
+					This page is a temporary directory for all the websites that I have
+					designed and coded so far. The purpose for these projects are to
+					practice my programming and design skills.
 				</p>
 				<ul class="tags tags-intro">
 					<li><i class="fa-solid fa-code"></i> Frontend Development</li>
@@ -172,7 +171,7 @@
 					competitive tactical FPS game, Valorant. Website has a light and dark
 					mode, uses a responsive grid and text overlays that appear on hover.
 				</p>
-				<img src="/assets/mac-valorant-dark.png" />
+				<img src="/assets/mac-valorant-light.png" />
 			</div>
 			<div class="card card-project">
 				<div class="project-heading">
@@ -198,43 +197,35 @@
 				</p>
 				<img src="/assets/mac-hogwarts.png" />
 			</div>
-			<div class="card card-project">
+			<div class="card card-footer">
 				<div class="project-heading">
-					<h2>NYC</h2>
-					<ul class="project-links">
-						<li>
-							<a href="/"><i class="fa-solid fa-code"></i></a>
-						</li>
-						<li><a href="/">Demo</a></li>
-					</ul>
+					<h2>Coming Soon</h2>
 				</div>
-				<h4>Landing Page</h4>
+				<h4>Websites using the following tech:</h4>
 				<ul class="tags tags-project">
-					<li><i class="fa-brands fa-css3-alt"></i> CSS</li>
-					<li><i class="fa-brands fa-html5"></i> HTML</li>
+					<li><i class="fa-brands fa-react"></i> React</li>
+					<li><i class="fa-brands fa-python"></i> Python</li>
+					<li><i class="fa-solid fa-play"></i> Three.js</li>
+					<li><i class="fa-solid fa-wind"></i> Tailwind</li>
 				</ul>
 				<p>
-					A simple landing page about the characters and maps found in the
-					competitive tactical FPS game, Valorant. Website has a light and dark
-					mode, uses a responsive grid and text overlays that appear on hover.
+					Visit my <a href="/">GitHub</a> or <a href="/">Twitter</a> to see my
+					progress on upcoming projects.
 				</p>
-				<img src="/assets/mac-hogwarts.png" />
 			</div>
 		</main>
-		<footer></footer>
 		<script>
 			document.addEventListener('DOMContentLoaded', function () {
 				const grid = document.querySelector('main');
 				const masonry = new Masonry(grid, {
 					itemSelector: '.card',
 					columnWidth: '.card',
-					gutter: 14,
+					gutter: 16,
 					fitWidth: true,
 					stagger: 30,
 					isAnimated: true,
 				});
 
-				// Initialize Masonry after all images have loaded
 				imagesLoaded(grid).on('always', function () {
 					masonry.layout();
 				});
