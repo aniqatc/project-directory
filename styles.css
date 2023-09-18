@@ -245,32 +245,32 @@ main {
 }
 
 /* Individual Color Schemes for Project Cards */
-/* NYC Landing */
-.card-project:nth-of-type(3) {
-	background-color: #c1cbd5;
-}
-
-.card-project:nth-of-type(3) .tags-project li {
-	background-color: #8ea0b7;
-	color: #11204a;
-}
-
-.card-project:nth-of-type(3) .project-links li {
-	background-color: #4c7aa8;
-}
-
 /* Keyboard App */
-.card-project:nth-of-type(4) {
+.card-project:nth-of-type(3) {
 	background-color: #dbdfea;
 }
 
-.card-project:nth-of-type(4) .tags-project li {
+.card-project:nth-of-type(3) .tags-project li {
 	background-color: #acb1d6;
 	color: #11204a;
 }
 
-.card-project:nth-of-type(4) .project-links li {
+.card-project:nth-of-type(3) .project-links li {
 	background-color: #8294c4;
+}
+
+/* NYC Landing */
+.card-project:nth-of-type(4) {
+	background-color: #e1dbea;
+}
+
+.card-project:nth-of-type(4) .tags-project li {
+	background-color: #afa0ba;
+	color: #32114a;
+}
+
+.card-project:nth-of-type(4) .project-links li {
+	background-color: #8e6fc0;
 }
 
 /* Weather App */
