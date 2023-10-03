@@ -245,88 +245,102 @@ main {
 }
 
 /* Individual Color Schemes for Project Cards */
-/* Keyboard App */
+/* World Clock */
 .card-project:nth-of-type(3) {
-	background-color: #dbdfea;
+	background-color: #dddbdb;
 }
 
 .card-project:nth-of-type(3) .tags-project li {
+	background-color: #b2abab;
+	color: #000000;
+}
+
+.card-project:nth-of-type(3) .project-links li {
+	background-color: #57585d;
+}
+
+/* Keyboard App */
+.card-project:nth-of-type(4) {
+	background-color: #dbdfea;
+}
+
+.card-project:nth-of-type(4) .tags-project li {
 	background-color: #acb1d6;
 	color: #11204a;
 }
 
-.card-project:nth-of-type(3) .project-links li {
+.card-project:nth-of-type(4) .project-links li {
 	background-color: #8294c4;
 }
 
 /* NYC Landing */
-.card-project:nth-of-type(4) {
+.card-project:nth-of-type(5) {
 	background-color: #e1dbea;
 }
 
-.card-project:nth-of-type(4) .tags-project li {
+.card-project:nth-of-type(5) .tags-project li {
 	background-color: #afa0ba;
 	color: #32114a;
 }
 
-.card-project:nth-of-type(4) .project-links li {
+.card-project:nth-of-type(5) .project-links li {
 	background-color: #8e6fc0;
 }
 
 /* Weather App */
-.card-project:nth-of-type(5) {
+.card-project:nth-of-type(6) {
 	background-color: #e3eef2;
 }
 
-.card-project:nth-of-type(5) .tags-project li {
+.card-project:nth-of-type(6) .tags-project li {
 	background-color: #adc4ce;
 	color: #11204a;
 }
 
-.card-project:nth-of-type(5) .project-links li {
+.card-project:nth-of-type(6) .project-links li {
 	background-color: #7a9cab;
 }
 
 /* Omnifood */
-.card-project:nth-of-type(6) {
+.card-project:nth-of-type(7) {
 	background-color: #ddeecf;
 }
 
-.card-project:nth-of-type(6) .tags-project li {
+.card-project:nth-of-type(7) .tags-project li {
 	background-color: #8ab986;
 	color: #1c391a;
 }
 
-.card-project:nth-of-type(6) .project-links li {
+.card-project:nth-of-type(7) .project-links li {
 	background-color: #467c41;
 }
 
 /* Valorant */
-.card-project:nth-of-type(7) {
+.card-project:nth-of-type(8) {
 	background-color: #f8e8ee;
 }
 
-.card-project:nth-of-type(7) .tags-project li {
+.card-project:nth-of-type(8) .tags-project li {
 	background-color: #eb9bb8;
 	color: #4f0c25;
 }
 
-.card-project:nth-of-type(7) .project-links li {
+.card-project:nth-of-type(8) .project-links li {
 	background-color: #bf4d76;
 }
 
 /* Hogwarts */
-.card-project:nth-of-type(8) {
+.card-project:nth-of-type(9) {
 	background-color: #f8f2df;
 	width: 100%;
 }
 
-.card-project:nth-of-type(8) .tags-project li {
+.card-project:nth-of-type(9) .tags-project li {
 	background-color: #dcc57c;
 	color: #2c2408;
 }
 
-.card-project:nth-of-type(8) .project-links li {
+.card-project:nth-of-type(9) .project-links li {
 	background-color: #b89e49;
 }
 
