@@ -364,7 +364,7 @@ main {
 	}
 
 	.card {
-		max-width: 100%;
+		width: 100%;
 	}
 
 	.card-project img {
