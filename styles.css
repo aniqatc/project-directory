@@ -206,21 +206,20 @@ main {
 }
 
 /* Laptop Image Inside Project Cards */
-.card-project img {
+.demo-img-wrapper img {
 	background-color: transparent;
 	filter: drop-shadow(2px 2px 6px #646464);
 	max-width: 100%;
 	max-height: 300px;
 	margin-bottom: -42px;
-	transition: all 300ms ease-in;
 }
 
-.demo-link {
+.demo-img-wrapper {
 	position: relative;
 	text-align: center;
 }
 
-.demo-link-hover {
+.demo-img-hover {
 	position: absolute;
 	top: 55%;
 	left: 50%;
@@ -231,16 +230,16 @@ main {
 	border-radius: 40px;
 	padding: 4px 10px;
 	opacity: 0;
-	transition: all 300ms ease-in;
 	white-space: nowrap;
+	transition: all 400ms ease-out;
 }
 
-.demo-link:hover img {
+.demo-img-wrapper:hover img {
 	opacity: 0.75;
 	filter: grayscale(0.9) blur(1px);
 }
 
-.demo-link:hover .demo-link-hover {
+.demo-img-wrapper:hover .demo-img-hover {
 	opacity: 1;
 }
 
