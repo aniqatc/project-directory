@@ -13,6 +13,12 @@ A directory showcasing all my completed and ongoing web development projects —
 
 ## Listings
 
+### 🎨 100 Days of CSS
+
+[https://css100.aniqa.dev/](https://css100.aniqa.dev/)
+
+My version of the 100 Days of CSS challenge, allowing for extensive usage of CSS animations, layout tricks, 3D transformations, SVG manipulations and interactive components. Each day includes a detailed README with notes on concepts I worked on. Compiled and bundled with a custom configuration using Webpack.
+
 ### 🕰️ World Clock Application
 
 [https://clock.aniqa.dev/](https://clock.aniqa.dev/)
