@@ -249,9 +249,14 @@ main {
 	background-color: #fdecd8;
 }
 
-.card-project:nth-of-type(3) .tags-project li {
+.card-project:nth-of-type(3) .tags-project li:not(.tag-special) {
 	background-color: #d8aa96;
 	color: #000000;
+}
+
+.card-project:nth-of-type(3) .tag-special {
+	background-color: #b4784d;
+	color: #fdecd8;
 }
 
 .card-project:nth-of-type(3) .project-links li {
@@ -305,9 +310,14 @@ main {
 	background-color: #e3eef2;
 }
 
-.card-project:nth-of-type(7) .tags-project li {
+.card-project:nth-of-type(7) .tags-project li:not(.tag-special) {
 	background-color: #adc4ce;
 	color: #11204a;
+}
+
+.card-project:nth-of-type(7) .tag-special {
+	background-color: #11204a;
+	color: #adc4ce;
 }
 
 .card-project:nth-of-type(7) .project-links li {
