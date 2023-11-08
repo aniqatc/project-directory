@@ -268,9 +268,14 @@ main {
 	background-color: #dddbdb;
 }
 
-.card-project:nth-of-type(4) .tags-project li {
+.card-project:nth-of-type(4) .tags-project li:not(.tag-special) {
 	background-color: #b2abab;
 	color: #000000;
+}
+
+.card-project:nth-of-type(4) .tag-special {
+	background-color: #57585d;
+	color: #dddbdb;
 }
 
 .card-project:nth-of-type(4) .project-links li {
