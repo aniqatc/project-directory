@@ -118,12 +118,12 @@ main {
 	padding: 5px 8px;
 	border-radius: 40px;
 	margin: 0 6px;
-	transition: all 300ms ease-in;
+	transition: background-color 300ms ease-in;
 }
 
 .card-social a:hover {
 	background-color: #4b4b4b;
-	color: #fff;
+	color: #c7c7c7;
 }
 
 .card-social a:hover i {
@@ -131,12 +131,14 @@ main {
 }
 
 .card-social span {
-	display: none;
-	transition: all 50ms ease-in;
+	opacity: 0;
+	font-size: 0;
+	transition: all 300ms ease-in;
 }
 
 .card-social a:hover span {
-	display: inline;
+	opacity: 1;
+	font-size: initial;
 	cursor: pointer;
 }
 
