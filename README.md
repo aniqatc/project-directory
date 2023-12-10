@@ -13,6 +13,12 @@ A directory showcasing all my completed and ongoing web development projects —
 
 ## Listings
 
+### 🤖 AI Coding Assistance Chat
+
+[https://code.aniqa.dev/](https://code.aniqa.dev/)
+
+A robust, coding assistance chat powered by AI with features that include pre-defined prompts (explain, refactor, debug and convert) to streamline the chat, built-in chat commands for enhanced guidance, automatic chat encoding, Prism.js syntax highlighting, downloading a file with chat history optimized for printing and ability to use the application as a PWA.
+
 ### 🎨 100 Days of CSS
 
 [https://css100.aniqa.dev/](https://css100.aniqa.dev/)
