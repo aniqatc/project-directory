@@ -13,6 +13,12 @@ A directory showcasing all my completed and ongoing web development projects —
 
 ## Listings
 
+### 🕹️ Playground
+
+[https://playground.aniqa.dev/](https://playground.aniqa.dev/)
+
+A dynamic collection of independent, interactive widgets showcasing various web functionalities. Features include a dual-mode calculator with function graphing, a digital footprint dashboard with geolocation mapping, a task tracker with priority management, real-time financial markets monitor, and a historical lottery analysis tool. Built with a full stack using Node/Express backend, MongoDB database, and a Webpack-optimized frontend utilizing Tailwind CSS.
+
 ### 🤖 AI Coding Assistance Chat
 
 [https://code.aniqa.dev/](https://code.aniqa.dev/)
