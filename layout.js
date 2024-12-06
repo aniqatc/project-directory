@@ -1,18 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-	const cards = document.querySelectorAll('.card');
-	cards.forEach((card, index) => {
-		card.style.animationDelay = `${index * 50 + 200}ms`;
-
-		card.addEventListener(
-			'animationend',
-			() => {
-				card.style.animation = 'none';
-				card.style.opacity = '1';
-			},
-			{ once: true }
-		);
-	});
-
 	const grid = document.querySelector('main');
 	const masonry = new Masonry(grid, {
 		itemSelector: '.card',
@@ -27,5 +13,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	imagesLoaded(grid).on('always', function () {
 		masonry.layout();
+	});
+
+	const cards = document.querySelectorAll('.card');
+	cards.forEach((card, index) => {
+		card.style.animationDelay = `${index * 50 + 200}ms`;
+
+		card.addEventListener(
+			'animationend',
+			() => {
+				card.style.animation = 'none';
+				card.style.opacity = '1';
+				masonry.layout();
+			},
+			{ once: true }
+		);
 	});
 });
