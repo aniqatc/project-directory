@@ -178,13 +178,13 @@ main {
 /* Tech Tags General Styling */
 .tags {
 	display: flex;
-	gap: 10px;
+	gap: 8px;
 	flex-wrap: wrap;
 	margin-top: 8px;
 }
 
 .tags li {
-	padding: 6px 10px;
+	padding: 6px 8px;
 	font-size: 0.7rem;
 	border-radius: 4px;
 }
@@ -224,10 +224,11 @@ main {
 /* Laptop Image Inside Project Cards */
 .demo-img-wrapper img {
 	background-color: transparent;
-	filter: drop-shadow(2px 2px 6px #646464);
+	filter: drop-shadow(2px 2px 8px #646464);
 	max-width: 100%;
 	max-height: 300px;
-	margin-bottom: -42px;
+	margin-bottom: -44px;
+	transition: all 300ms ease-in;
 }
 
 .demo-img-wrapper {
@@ -252,7 +253,7 @@ main {
 
 .demo-img-wrapper:hover img {
 	opacity: 0.75;
-	filter: grayscale(0.9) blur(1px);
+	filter: grayscale(0.9) blur(1px) drop-shadow(2px 2px 4px #646464);
 }
 
 .demo-img-wrapper:hover .demo-img-hover {
@@ -271,6 +272,11 @@ main {
 	color: #000000;
 }
 
+.card-project:nth-of-type(3) .tag-temp {
+	background-color: #000;
+	color: #e8f4f0;
+}
+
 .card-project:nth-of-type(3) .tag-special {
 	background-color: #458b73;
 	color: #e8f4f0;
@@ -278,11 +284,6 @@ main {
 
 .card-project:nth-of-type(3) .tag-x-special {
 	background-color: #1f513f;
-	color: #e8f4f0;
-}
-
-.card-project:nth-of-type(3) .tag-temp {
-	background-color: #000;
 	color: #e8f4f0;
 }
 
@@ -314,9 +315,14 @@ main {
 	background-color: #fdecd8;
 }
 
-.card-project:nth-of-type(5) .tags-project li:not(.tag-special) {
+.card-project:nth-of-type(5) .tags-project li:not(.tag-special, .tag-temp) {
 	background-color: #d8aa96;
 	color: #000000;
+}
+
+.card-project:nth-of-type(5) .tag-temp {
+	background-color: rgb(63, 33, 12);
+	color: #fdecd8;
 }
 
 .card-project:nth-of-type(5) .tag-special {
