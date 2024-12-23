@@ -262,184 +262,218 @@ main {
 
 /***********************************************/
 /* Individual Color Schemes for Project Cards */
-/* Playground */
+
+/* Rflect CLI */
 .card-project:nth-of-type(3) {
-	background-color: #e8f4f0;
+	background-color: #e6eafc;
 }
 
 .card-project:nth-of-type(3) .tags-project li:not(.tag-special, .tag-x-special, .tag-temp) {
+	background-color: rgb(178, 189, 233);
+	color: #1e2749;
+}
+
+.card-project:nth-of-type(3) .tag-temp {
+	background-color: #3c4a8a;
+	color: #e6eafc;
+}
+
+.card-project:nth-of-type(3) .tag-special {
+	background-color: #6a7fd1;
+	color: #e6eafc;
+}
+
+.card-project:nth-of-type(3) .tag-x-special {
+	background-color: #3c4a8a;
+	color: #e6eafc;
+}
+
+.card-project:nth-of-type(3) .project-links li {
+	background-color: #6a7fd1;
+}
+
+.card-project:nth-of-type(3) .project-links li:hover {
+	background-color: #5568b0;
+}
+
+/* Playground */
+.card-project:nth-of-type(4) {
+	background-color: #e8f4f0;
+}
+
+.card-project:nth-of-type(4) .tags-project li:not(.tag-special, .tag-x-special, .tag-temp) {
 	background-color: #a8d5c6;
 	color: #000000;
 }
 
-.card-project:nth-of-type(3) .tag-temp {
+.card-project:nth-of-type(4) .tag-temp {
 	background-color: #000;
 	color: #e8f4f0;
 }
 
-.card-project:nth-of-type(3) .tag-special {
+.card-project:nth-of-type(4) .tag-special {
 	background-color: #458b73;
 	color: #e8f4f0;
 }
 
-.card-project:nth-of-type(3) .tag-x-special {
+.card-project:nth-of-type(4) .tag-x-special {
 	background-color: #1f513f;
 	color: #e8f4f0;
 }
 
-.card-project:nth-of-type(3) .project-links li {
+.card-project:nth-of-type(4) .project-links li {
 	background-color: #5faa8f;
 }
 
 /* AI Chat */
-.card-project:nth-of-type(4) {
+.card-project:nth-of-type(5) {
 	background-color: #e9e6f2;
 }
 
-.card-project:nth-of-type(4) .tags-project li:not(.tag-special) {
+.card-project:nth-of-type(5) .tags-project li:not(.tag-special) {
 	background-color: #c7b8ff;
 	color: #000000;
 }
 
-.card-project:nth-of-type(4) .tag-special {
-	background-color: #8572cf;
-	color: #fdecd8;
-}
-
-.card-project:nth-of-type(4) .project-links li {
-	background-color: #8572cf;
-}
-
-/* CSS 100 */
-.card-project:nth-of-type(5) {
-	background-color: #fdecd8;
-}
-
-.card-project:nth-of-type(5) .tags-project li:not(.tag-special, .tag-temp) {
-	background-color: #d8aa96;
-	color: #000000;
-}
-
-.card-project:nth-of-type(5) .tag-temp {
-	background-color: rgb(63, 33, 12);
-	color: #fdecd8;
-}
-
 .card-project:nth-of-type(5) .tag-special {
-	background-color: #b4784d;
+	background-color: #8572cf;
 	color: #fdecd8;
 }
 
 .card-project:nth-of-type(5) .project-links li {
+	background-color: #8572cf;
+}
+
+/* CSS 100 */
+.card-project:nth-of-type(6) {
+	background-color: #fdecd8;
+}
+
+.card-project:nth-of-type(6) .tags-project li:not(.tag-special, .tag-temp) {
+	background-color: #d8aa96;
+	color: #000000;
+}
+
+.card-project:nth-of-type(6) .tag-temp {
+	background-color: rgb(63, 33, 12);
+	color: #fdecd8;
+}
+
+.card-project:nth-of-type(6) .tag-special {
+	background-color: #b4784d;
+	color: #fdecd8;
+}
+
+.card-project:nth-of-type(6) .project-links li {
 	background-color: #b4784d;
 }
 
 /* World Clock */
-.card-project:nth-of-type(6) {
+.card-project:nth-of-type(7) {
 	background-color: #dddbdb;
 }
 
-.card-project:nth-of-type(6) .tags-project li:not(.tag-special) {
+.card-project:nth-of-type(7) .tags-project li:not(.tag-special) {
 	background-color: #b2abab;
 	color: #000000;
 }
 
-.card-project:nth-of-type(6) .tag-special {
+.card-project:nth-of-type(7) .tag-special {
 	background-color: #57585d;
 	color: #dddbdb;
 }
 
-.card-project:nth-of-type(6) .project-links li {
+.card-project:nth-of-type(7) .project-links li {
 	background-color: #57585d;
 }
 
 /* Keyboard App */
-.card-project:nth-of-type(7) {
+.card-project:nth-of-type(8) {
 	background-color: #dbdfea;
 }
 
-.card-project:nth-of-type(7) .tags-project li {
+.card-project:nth-of-type(8) .tags-project li {
 	background-color: #acb1d6;
 	color: #11204a;
 }
 
-.card-project:nth-of-type(7) .project-links li {
+.card-project:nth-of-type(8) .project-links li {
 	background-color: #8294c4;
 }
 
 /* NYC Landing */
-.card-project:nth-of-type(8) {
+.card-project:nth-of-type(9) {
 	background-color: #e1dbea;
 }
 
-.card-project:nth-of-type(8) .tags-project li {
+.card-project:nth-of-type(9) .tags-project li {
 	background-color: #afa0ba;
 	color: #32114a;
 }
 
-.card-project:nth-of-type(8) .project-links li {
+.card-project:nth-of-type(9) .project-links li {
 	background-color: #8e6fc0;
 }
 
 /* Weather App */
-.card-project:nth-of-type(9) {
+.card-project:nth-of-type(10) {
 	background-color: #e3eef2;
 }
 
-.card-project:nth-of-type(9) .tags-project li:not(.tag-special) {
+.card-project:nth-of-type(10) .tags-project li:not(.tag-special) {
 	background-color: #adc4ce;
 	color: #11204a;
 }
 
-.card-project:nth-of-type(9) .tag-special {
+.card-project:nth-of-type(10) .tag-special {
 	background-color: #11204a;
 	color: #adc4ce;
 }
 
-.card-project:nth-of-type(9) .project-links li {
+.card-project:nth-of-type(10) .project-links li {
 	background-color: #7a9cab;
 }
 
 /* Omnifood */
-.card-project:nth-of-type(10) {
+.card-project:nth-of-type(11) {
 	background-color: #ddeecf;
 }
 
-.card-project:nth-of-type(10) .tags-project li {
+.card-project:nth-of-type(11) .tags-project li {
 	background-color: #8ab986;
 	color: #1c391a;
 }
 
-.card-project:nth-of-type(10) .project-links li {
+.card-project:nth-of-type(11) .project-links li {
 	background-color: #467c41;
 }
 
 /* Valorant */
-.card-project:nth-of-type(11) {
+.card-project:nth-of-type(12) {
 	background-color: #f8e8ee;
 }
 
-.card-project:nth-of-type(11) .tags-project li {
+.card-project:nth-of-type(12) .tags-project li {
 	background-color: #eb9bb8;
 	color: #4f0c25;
 }
 
-.card-project:nth-of-type(11) .project-links li {
+.card-project:nth-of-type(12) .project-links li {
 	background-color: #bf4d76;
 }
 
 /* Hogwarts */
-.card-project:nth-of-type(12) {
+.card-project:nth-of-type(13) {
 	background-color: #f8f2df;
 	width: 100%;
 }
 
-.card-project:nth-of-type(12) .tags-project li {
+.card-project:nth-of-type(13) .tags-project li {
 	background-color: #dcc57c;
 	color: #2c2408;
 }
 
-.card-project:nth-of-type(12) .project-links li {
+.card-project:nth-of-type(13) .project-links li {
 	background-color: #b89e49;
 }
 
