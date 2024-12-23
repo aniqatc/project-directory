@@ -13,6 +13,12 @@ A directory showcasing all my completed and ongoing web development projects —
 
 ## Listings
 
+### 💻 Rflect CLI
+
+[https://github.com/aniqatc/rflect-cli](https://github.com/aniqatc/rflect-cli)
+
+Rflect is a simple, offline command-line tool designed for guided reflections and journaling. It offers thoughtfully curated prompts to help users reflect on their thoughts, emotions, and experiences, while monitoring journaling habits, mood patterns, and writing goals over time. Built with Node.js, Rflect uses the local filesystem for data storage and is easily accessible via NPM for straightforward installation and updates.
+
 ### 🕹️ Playground
 
 [https://playground.aniqa.dev/](https://playground.aniqa.dev/)
