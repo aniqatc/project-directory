@@ -422,24 +422,28 @@ main {
 
 .card-project:nth-of-type(10) .message {
 	color: rgb(93, 113, 121);
+	font-size: 0.8rem;
+	margin-top: -4px;
+	margin-bottom: 12px;
+	line-height: 1.6;
 }
 
-.card-project:nth-of-type(10) .message a {
+.card-project:nth-of-type(10) .message-link {
 	text-decoration: underline;
 	transition: all 200ms ease-in;
 }
 
-.card-project:nth-of-type(10) .message a:hover {
+.card-project:nth-of-type(10) .message-link:hover {
 	text-decoration: none;
-	color: #000;
+	color: #11204a;
 }
 
-.card-project:nth-of-type(10) .message .tag {
+.card-project:nth-of-type(10) .message-tag {
 	padding: 2px 4px;
 	font-size: 0.75rem;
 	border-radius: 4px;
-	background-color: #adc4ce;
-	color: rgb(45, 57, 86);
+	background-color: #cedadf;
+	color: #11204a;
 }
 
 .card-project:nth-of-type(10) .tags-project li:not(.tag-special) {
