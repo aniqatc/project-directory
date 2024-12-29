@@ -420,6 +420,28 @@ main {
 	background-color: #e3eef2;
 }
 
+.card-project:nth-of-type(10) .message {
+	color: rgb(93, 113, 121);
+}
+
+.card-project:nth-of-type(10) .message a {
+	text-decoration: underline;
+	transition: all 200ms ease-in;
+}
+
+.card-project:nth-of-type(10) .message a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+.card-project:nth-of-type(10) .message .tag {
+	padding: 2px 4px;
+	font-size: 0.75rem;
+	border-radius: 4px;
+	background-color: #adc4ce;
+	color: rgb(45, 57, 86);
+}
+
 .card-project:nth-of-type(10) .tags-project li:not(.tag-special) {
 	background-color: #adc4ce;
 	color: #11204a;
