@@ -265,25 +265,25 @@ main {
 
 /* Define Project Card */
 .card-project:nth-of-type(3) {
-	background-color: #f0f4ff; /* Light blue-gray background */
+	background-color: #f0f4ff;
 }
 
 .card-project:nth-of-type(3) .tags-project li:not(.tag-special, .tag-x-special) {
-	background-color: #e2e8f0; /* Lighter tags */
-	color: #1e293b; /* Dark text */
+	background-color: #e2e8f0;
+	color: #1e293b;
 }
 
 .card-project:nth-of-type(3) .tag-special {
-	background-color: #475569; /* Darker tag */
-	color: #f8fafc; /* Light text */
+	background-color: #475569;
+	color: #f8fafc;
 }
 
 .card-project:nth-of-type(3) .project-links li {
-	background-color: #64748b; /* Medium slate for links */
+	background-color: #64748b;
 }
 
 .card-project:nth-of-type(3) .project-links li:hover {
-	background-color: #475569; /* Darker on hover */
+	background-color: #475569;
 }
 
 /* Rflect CLI */
