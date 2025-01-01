@@ -13,6 +13,16 @@ A directory showcasing all my completed and ongoing web development projects —
 
 ## Listings
 
+### 📚 Define Dictionary
+
+[https://github.com/aniqatc/define](https://github.com/aniqatc/define)
+
+A modern dictionary application that offers an elegant way to explore word definitions,
+examples, and related imagery. Built with React and styled with Tailwind CSS, it features
+customizable themes and typography options for a personalized reading experience. The app
+implements smooth animations with Framer Motion and uses React's Context API for
+theme/font management.
+
 ### 💻 Rflect CLI
 
 [https://github.com/aniqatc/rflect-cli](https://github.com/aniqatc/rflect-cli)
