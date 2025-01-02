@@ -15,7 +15,7 @@ A directory showcasing all my completed and ongoing web development projects —
 
 ### 📚 Define Dictionary
 
-[https://github.com/aniqatc/define](https://github.com/aniqatc/define)
+[https://define.aniqa.dev](https://define.aniqa.dev)
 
 A modern dictionary application that offers an elegant way to explore word definitions,
 examples, and related imagery. Built with React and styled with Tailwind CSS, it features
@@ -65,11 +65,15 @@ A responsive landing page about New York City that serves as a travel guide. Pac
 
 A responsive virtual keyboard with 8 unique styles (and 2 different keyboard lighting animations) that triggers on mouse clicks and keyboard presses along with a text area to write, copy and save Markdown content. Utilizes localStorage to save the user's theme preference and any Markdown content.
 
-### 🌤️ Weather Dashboard
+### 🌤️ Weather Dashboards
 
 [https://weather.aniqa.dev/](https://weather.aniqa.dev/)
 
-A detailed light and dark mode dashboard with a complete overview of live weather conditions in the specified city. Option to toggle weather data between Celsius and Fahrenheit units. Sidebar with random major cities weather. Built using the OpenWeather API.
+A detailed light and dark mode dashboard with a complete overview of live weather conditions in the specified city. Option to toggle weather data between Celsius and Fahrenheit units. Sidebar with random major cities weather. Built using the OpenWeather API, JavaScript and Bootstrap.
+
+[https://mini.weather.aniqa.dev](https://mini.weather.aniqa.dev)
+
+A simple weather application showcasing real-time forecasts and climate metrics, built with React and OpenWeather API integration.
 
 ### 🥗 Omnifood Landing Page
 
